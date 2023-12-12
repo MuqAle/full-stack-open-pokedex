@@ -18,6 +18,11 @@ module.exports = {
   "plugins": [
     "react", "jest"
   ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "rules": {
     "indent": [
       "error",
@@ -46,4 +51,5 @@ module.exports = {
     "no-console": "error",
     "react/prop-types": 0
   }
+  
 }
